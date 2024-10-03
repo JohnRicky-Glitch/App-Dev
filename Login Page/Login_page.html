@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>JUANofUS</title> 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS --> 
+    <link rel="stylesheet" href="login.css"> 
+    <!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head> 
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="logo2.png" alt="Brand Logo" width="100" height="100" class="d-inline-block align-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home-section">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-section">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services-section">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-section">Contact</a>
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-outline-light" id="loginBtn">Login</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Content -->
+
+<!-- Home Section --> 
+<section id="home-section" class="vh-100 d-flex align-items-center text-center text-white" style="background-image: url('2.png'); background-size: cover;"> 
+  <div class="container">  
+    <h1 class="display-4">Welcome to JUANofUS</h1> 
+    <p class="lead">Connecting communities for a better tomorrow.</p> 
+    <a href="#about-section" class="btn btn-modern mt-3">Learn More</a> 
+  </div>
+  <div class="scroll-down">
+      <i class="fas fa-chevron-down"></i>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about-section" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">About Us</h2>
+    <p class="text-center" style="text-align: justify;" data-aos="fade-up" data-aos-delay="300">Welcome to Barangay San Roque, a vibrant community nestled in the heart of Quezon City, Metro Manila, home to over 18,000 residents. Our lively streets and warm, welcoming atmosphere provide an authentic glimpse into local life, making San Roque a unique destination for both residents and visitors alike.</p>
+    <p class="text-center" style="text-align: justify;" data-aos="fade-up" data-aos-delay="300">Established through Executive Order No. 052 during the administration of Mayor Norberto S. Amoranto, Barangay San Roque has been a cornerstone of community engagement since the inauguration of its barangay hall in 1981. This facility serves as a hub for local activities and services, ensuring that our community remains connected and engaged. Our barangay office is open for your convenience from Monday to Saturday, 8:00 AM to 5:00 PM.</p>
+    <p class="text-center" style="text-align: justify;" data-aos="fade-up" data-aos-delay="300">At Juan of Us, we are proud to offer two essential services designed to enhance your experience within our community. First, we facilitate the reservation of equipment and materials, allowing you to check real-time availability and easily apply for what you need. You can schedule your borrowing in advance to ensure a seamless delivery experience.</p>
+    <p class="text-center" style="text-align: justify;" data-aos="fade-up" data-aos-delay="300">Additionally, we provide an appointment system for document requests, designed to streamline your visit and reduce wait times. By scheduling an appointment, you can process your documents with ease, ensuring a smoother and more efficient experience.</p>
+    
+    <!-- Mission & Vision Toggle Buttons -->
+    <div class="text-center my-4">
+      <button class="btn btn-primary px-4 py-2 rounded-pill shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#mission" aria-expanded="false" aria-controls="mission">
+        View Mission
+      </button>
+      <button class="btn btn-secondary px-4 py-2 rounded-pill shadow-sm ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#vision" aria-expanded="false" aria-controls="vision">
+        View Vision
+      </button>
+    </div>
+
+    <!-- Mission and Vision Collapse Sections -->
+    <div class="collapse" id="mission">
+      <div class="card card-body">
+        <h4>Our Mission</h4>
+        <p>Our mission is to foster community engagement and improve the overall quality of life for all residents. We aim to provide services that enhance accessibility, promote unity, and encourage active participation in both local and citywide initiatives. Through innovative solutions and collaborative efforts, we strive to create a supportive environment where individuals can thrive and work together toward common goals.</p>
+      </div>
+    </div>
+
+    <div class="collapse" id="vision">
+      <div class="card card-body mt-3">
+        <h4>Our Vision</h4>
+        <p>We envision a vibrant and inclusive Barangay San Roque where every resident feels connected, valued, and empowered. By leveraging technology and fostering a culture of collaboration, we aspire to build a community that is resilient, forward-thinking, and united in its efforts to improve the well-being of all. Our ultimate goal is to create a safe, sustainable, and prosperous future for generations to come.</p>
+      </div>
+    </div>
+
+      <!-- Barangay San Roque Officials Section -->
+      <h3 class="text-center mb-4">Barangay San Roque Officials</h3>
+
+      <!-- Captain's Card Centered -->
+      <div class="row justify-content-center mb-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="col-md-4 d-flex justify-content-center">
+          <div class="card shadow-lg border-0">
+            <img src="img/Mortega.png" class="card-img-top" alt="Barangay Captain">
+            <div class="card-body text-center">
+              <h5 class="card-title">Telesforo A. Mortega</h5>
+              <p class="card-text">Punong Barangay</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Toggle Button (Visible only on small screens) -->
+      <div class="text-center mb-4">
+        <button class="btn btn-primary d-sm-none" id="toggleOfficialsBtn">Show Officials</button>
+      </div>
+  
+      <!-- Officials Cards (Hidden on small screens initially) -->
+      <div class="row justify-content-center">
+        <!-- First row of 5 officials -->
+        <div class="col-md-2 official-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="card shadow-sm mb-4 border-0">
+            <img src="img/Ramil.png" class="card-img-top" alt="Barangay Kagawad 1">
+            <div class="card-body text-center">
+              <h5 class="card-title">Ramil D. Singson</h5>
+              <p class="card-text">Barangay Kagawad</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-2 official-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="card shadow-sm mb-4 border-0">
+            <img src="img/Payuan.png" class="card-img-top" alt="Barangay Kagawad 2">
+            <div class="card-body text-center">
+              <h5 class="card-title">Louie P. Payuan</h5>
+              <p class="card-text">Barangay Kagawad</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-2 official-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="card shadow-sm mb-4 border-0">
+            <img src="img/Emilda.png" class="card-img-top" alt="Barangay Kagawad 3">
+            <div class="card-body text-center">
+              <h5 class="card-title">Imelda I. Macaraeg</h5>
+              <p class="card-text">Barangay Kagawad</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-2 official-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="card shadow-sm mb-4 border-0">
+            <img src="img/Heber.png" class="card-img-top" alt="Barangay Kagawad 4">
+            <div class="card-body text-center">
+              <h5 class="card-title">Heber M. Rodriguez</h5>
+              <p class="card-text">Barangay Kagawad</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-2 official-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="card shadow-sm mb-4 border-0">
+            <img src="img/John.png" class="card-img-top" alt="Barangay Kagawad 5">
+            <div class="card-body text-center">
+              <h5 class="card-title">John Wency R. Cabal</h5>
+              <p class="card-text">Barangay Kagawad</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
+        <!-- Second row of 5 officials -->
+        <div class="col-md-2 official-card">
+          <div class="card shadow-sm mb-4 border-0">
+            <img src="img/Sagun.png" class="card-img-top" alt="Barangay Kagawad 6">
+            <div class="card-body text-center">
+              <h5 class="card-title">Virgilio V. Sagun Jr.</h5>
+              <p class="card-text">Barangay Kagawad</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-2 official-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="card shadow-sm mb-4 border-0">
+            <img src="img/Anastasho.png" class="card-img-top" alt="Barangay Kagawad 7">
+            <div class="card-body text-center">
+              <h5 class="card-title">Elizabeth B. Anastacio</h5>
+              <p class="card-text">Barangay Kagawad</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-2 official-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="card shadow-sm mb-4 border-0">
+            <img src="img/Dorogan.png" class="card-img-top" alt="Barangay Kagawad 8">
+            <div class="card-body text-center">
+              <h5 class="card-title">Babylyn T. Dorosan</h5>
+              <p class="card-text">SK Chairman</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-2 official-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="card shadow-sm mb-4 border-0">
+            <img src="img/Carmelo.png" class="card-img-top" alt="Barangay Kagawad 9">
+            <div class="card-body text-center">
+              <h5 class="card-title">Carmelo P. Macayan</h5>
+              <p class="card-text">Barangay Secretary</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-2 official-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="card shadow-sm mb-4 border-0">
+            <img src="img/Sindol.png" class="card-img-top" alt="Barangay Kagawad 10">
+            <div class="card-body text-center">
+              <h5 class="card-title">Augusto L. Sindol</h5>
+              <p class="card-text">Barangay Treasurer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Services Section --> 
+<section id="services-section" class="py-5"> 
+  <div class="container">  
+    <h2 class="text-center text-dark mb-5">Our Services</h2> 
+    <div class="row">  
+      <div class="col-md-4 text-center mb-4">  
+        <div class="card h-100 service-card"> 
+          <div class="card-body"> 
+            <i class="bi bi-lungs display-4 text-primary"></i> 
+            <h5 class="card-title mt-3">Health Services</h5> 
+            <p class="card-text">Zumba fitness activities - every week
+              Wellness Mission Program - different medical programs every month
+              Free consultation - weekdays
+              Free Medicine and Free Vitamins - weekdays
+              </p> 
+          </div> 
+        </div>  
+      </div>  
+      <div class="col-md-4 text-center mb-4">  
+        <div class="card h-100 service-card"> 
+          <div class="card-body"> 
+            <i class="bi bi-people display-4 text-primary"></i> 
+            <h5 class="card-title mt-3">Employment and Training Programs</h5> 
+            <p class="card-text">Barangay San Roque offers employment and training programs aimed at enhancing the skills of residents, providing opportunities for career growth, and supporting job placement to improve livelihoods.
+              </p> 
+          </div> 
+        </div>  
+      </div>  
+      <div class="col-md-4 text-center mb-4">  
+        <div class="card h-100 service-card"> 
+          <div class="card-body"> 
+            <i class="bi bi-building-check display-4 text-primary"></i> 
+            <h5 class="card-title mt-3">Free Use of Barangay Facilities and Properties</h5> 
+            <p class="card-text">Residents of Barangay San Roque are entitled to the free use of community facilities and properties, such as event spaces, tents, and tables, for personal or community events.</p> 
+          </div> 
+        </div>  
+      </div>  
+      
+      <!-- New Card for JuanofUs Website -->
+      <div class="col-md-4 text-center mb-4">  
+        <div class="card h-100 service-card"> 
+          <div class="card-body"> 
+            <i class="bi bi-file-earmark-post display-4 text-primary"></i> 
+            <h5 class="card-title mt-3">
+              Issuance of Barangay Certificates and Clearances</h5> 
+            <p class="card-text">Barangay San Roque provides residents with official certificates and clearances, such as Barangay Clearance, Barangay ID, and business permits, which are essential for various legal, employment, and business purposes.</p> 
+          </div> 
+        </div>  
+      </div>  
+      
+      <!-- Additional Card for More Services -->
+      <div class="col-md-4 text-center mb-4">  
+        <div class="card h-100 service-card"> 
+          <div class="card-body"> 
+            <i class="bi bi-bandaid display-4 text-primary"></i> 
+            <h5 class="card-title mt-3">Health Services for Pets (Dogs and Cats)</h5> 
+            <p class="card-text">Barangay San Roque offers free health services for pets, including anti-rabies vaccination, deworming, and microchipping, conducted every six months to ensure the well-being of both pets and the community.</p> 
+          </div> 
+        </div>  
+      </div>  
+      
+      <div class="col-md-4 text-center mb-4">  
+        <div class="card h-100 service-card"> 
+          <div class="card-body"> 
+            <i class="bi bi-book-half display-4 text-primary"></i> 
+            <h5 class="card-title mt-3">Barangay Day Care Center (Free Services)</h5> 
+            <p class="card-text">The Barangay San Roque Day Care Center offers free early childhood education and care services for young children, providing a safe and nurturing environment that supports their development while helping parents manage their daily responsibilities.</p> 
+          </div> 
+        </div>  
+      </div>  
+    </div>  
+  </div>  
+</section>
+
+
+<!-- Contact Section --> 
+<section id="contact-section" class="py-5 bg-light"> 
+  <div class="container"> 
+    <h2 class="text-center mb-4">Connect with Us</h2> 
+    <p class="text-center">Stay updated and follow us on social media:</p>  
+    <div class="row justify-content-center mb-4">  
+      <div class="col-md-6"> 
+        <div class="card p-4 text-center shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title mb-4">Follow Us</h5>
+            <div class="d-flex justify-content-around">
+
+              <!-- Facebook Icon -->
+              <a href="https://www.facebook.com/barangaysanroqued3" target="_blank" class="social-link">
+                <i class="bi bi-facebook display-4"></i>
+              </a>
+
+              <!-- Gmail Icon (opens email client) -->
+              <a href="mailto:barangay.sanroqued3@gmail.com" class="social-link">
+                <i class="bi bi-envelope display-4"></i>
+              </a>
+
+              <!-- Telephone Icon (opens dialer) -->
+              <a href="tel:+639662785600" class="social-link">
+                <i class="bi bi-telephone display-4"></i>
+                <span class="ms-2">0966 278 5600</span>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Barangay Location Map -->
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card p-4 shadow-sm">
+          <h5 class="card-title text-center mb-4">Our Location</h5>
+          <div id="map" style="height: 400px;"></div>
+        </div>
+      </div>
+    </div>
+
+  </div> 
+</section>
+
+
+
+<!-- Footer -->
+<footer class="text-center text-white py-3">
+  <p class="mb-0">&copy; 2023 JUANofUS. All rights reserved.</p>
+</footer>
+
+<!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title w-100 text-center" id="loginModalLabel">LOGIN</h5> 
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+      </div> 
+      <div class="modal-body">
+        <!-- Login Form -->
+        <form id="loginForm">
+          <div class="mb-3">
+            <label for="login-username" class="form-label">Barangay ID Number</label>
+            <input type="text" class="form-control" id="login-username" required>
+          </div>
+          <div class="mb-3">
+            <label for="login-password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="login-password" required>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="rememberMeCheck">
+            <label class="form-check-label" for="rememberMeCheck">Remember me</label>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Login</button> 
+        </form> 
+        <!-- Register Link --> 
+        <div class="text-center mt-3">
+          <p>Don't have an account? <a href="#" id="showRegisterForm">Register here</a></p>
+        </div>
+        <!-- Login As Admin --> 
+        <div class="text-center mt-3">
+          <a href="#" class="text-primary" data-bs-toggle="modal" data-bs-target="#forgotPasswordModal">Forgot Password?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Registration Modal -->
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title w-100 text-center" id="registerModalLabel">REGISTER</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Register Form -->
+        <form id="registerForm">
+          <div class="mb-3">
+            <label for="register-barangayID" class="form-label">Barangay ID Number</label>
+            <input type="text" class="form-control" id="register-barangayID" placeholder="Enter your Barangay ID" required>
+          </div>
+          <!-- Name Inputs -->
+          <div class="mb-3">
+            <label for="register-lastname" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="register-lastname" placeholder="Enter your last name" required>
+          </div>
+          <div class="mb-3">
+            <label for="register-firstname" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="register-firstname" placeholder="Enter your first name" required>
+          </div>
+          <div class="mb-3">
+            <label for="register-middlename" class="form-label">Middle Name</label>
+            <input type="text" class="form-control" id="register-middlename" placeholder="Enter your middle name">
+          </div>
+          <!-- Contact Number Input -->
+          <div class="mb-3">
+            <label for="register-contact" class="form-label">Contact Number</label>
+            <input type="tel" class="form-control" id="register-contact" placeholder="Enter your contact number" required>
+          </div>
+          <!-- Password Inputs -->
+          <div class="mb-3">
+            <label for="register-password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="register-password" placeholder="Enter your password" required>
+          </div>
+          <div class="mb-3">
+            <label for="register-confirm-password" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="register-confirm-password" placeholder="Confirm your password" required>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Forgot Password Modal -->
+<div class="modal fade" id="forgotPasswordModal" tabindex="-1" aria-labelledby="forgotPasswordModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title w-100 text-center" id="forgotPasswordModalLabel">FORGOT PASSWORD</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <!-- Forgot Password Form -->
+              <form id="forgotPasswordForm">
+                  <div class="mb-3">
+                      <label for="forgot-barangayID" class="form-label">Barangay ID Number</label>
+                      <input type="text" class="form-control" id="forgot-barangayID" placeholder="Enter your Barangay ID" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="forgot-lastname" class="form-label">Last Name</label>
+                      <input type="text" class="form-control" id="forgot-lastname" placeholder="Enter your last name" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="forgot-firstname" class="form-label">First Name</label>
+                      <input type="text" class="form-control" id="forgot-firstname" placeholder="Enter your first name" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="forgot-middlename" class="form-label">Middle Name</label>
+                      <input type="text" class="form-control" id="forgot-middlename" placeholder="Enter your middle name">
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">Submit</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // Duration of animation in milliseconds
+    once: true, // Animation happens only once, even if you scroll back up
+  });
+</script>
+
+<!-- Bootstrap Icons CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+<!-- Include Leaflet.js for map rendering -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+<script src="login_js.js"></script>
+</body>
+</html>
